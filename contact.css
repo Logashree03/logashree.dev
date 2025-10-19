@@ -113,7 +113,7 @@ form {
 
 @media only screen and (min-width: 600px) and (max-width:1200px) {
    iframe {
-   width: 445px;
+        width: 488px;
    }
 
 }
@@ -127,7 +127,7 @@ form {
 
 @media only screen and (min-width: 300px) and (max-width:600px) {
    iframe {
-      width: 200px;
+      width: 402px;;
    }
 
 }

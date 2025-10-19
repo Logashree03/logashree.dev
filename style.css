@@ -14,7 +14,6 @@
 
  }
 
-
  /* Particle Background */
  #particles-js {
    position: fixed;
@@ -654,11 +653,12 @@
      .footer {
        position: unset;
        margin-top: 38%;
+      padding: 33px;
      }
 
      .hd_button {
-       padding: 3px;
-       font-size: 13px;
+       padding: 15px;
+       font-size: 15px;
      }
 
      .resume_title {
@@ -677,6 +677,11 @@
      position: unset;
      display: flow;
      height: auto;
+   }
+   .header img 
+   {
+    width: 180px;
+    height: 180px;
    }
    }
 

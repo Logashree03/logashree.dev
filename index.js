@@ -16,8 +16,8 @@ const randomizeText = () => {
   const animation = compStyles.getPropertyValue('animation');
   const animationTime = parseFloat(animation.match(/\d*[.]?\d+/)) * 1000;
   
-  const phrases = ['Font-End Developer', 'WordPress Front-End Developer',, 'Web Designer','Full Stack Web Developer','Font-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer','Font-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer',
-    'Font-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer','Font-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer'];
+  const phrases = ['Front-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer','Front-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer','Font-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer',
+    'Front-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer','Front-End Developer', 'WordPress Front-End Developer', 'Web Designer','Full Stack Web Developer'];
   
   i = randomNum(i, phrases.length);
   const newPhrase = phrases[i];
